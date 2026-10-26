@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aya A. — Data & Business Analyst with experience in Business Intelligence, AI and software engineering.">
+  <title>Aya A. | Data & Business Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cinzel+Decorative:wght@400;700&family=Almendra:wght@400;700&family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#home" data-page-target="home"
+      aria-label="Aya A. — Home">
+      <span class="logo-initials">A<span class="logo-second">A</span></span>
+      <span class="logo-dot">.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home" data-page-target="home" class="active" data-i18n="nav.home">Home</a>
+      <a href="#about" data-page-target="about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-page-target="experience" data-i18n="nav.experience">Experience</a>
+      <a href="#projects" data-page-target="projects" data-i18n="nav.projects">Projects</a>
+      <a href="#contact" data-page-target="contact" data-i18n="nav.contact">Let's connect</a>
+    </nav>
+
+    <button
+      class="language-toggle"
+      id="language-toggle"
+      type="button"
+      aria-label="Passer le site en français"
+      title="Change language"
+    >FR</button>
+
+    <button
+      class="theme-toggle"
+      id="theme-toggle"
+      type="button"
+      aria-label="Switch to light theme"
+      aria-pressed="false"
+      title="Switch theme"
+    >
+      ☼
+    </button>
+  </header>
+
+  <main class="page-container">
+
+    <!-- HOME -->
+    <section class="page-section hero active" id="home" data-page="home">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">DATA ANALYSIS · BUSINESS INSIGHTS · TECHNOLOGY</p>
+
+        <h1 data-i18n="hero.title">
+          Turning data into <span>meaningful decisions.</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="hero.description1">
+          I'm Aya, an engineer focused on Data Analysis and Business Analysis,
+          with a background in Business Intelligence, Artificial Intelligence
+          and Software Engineering.
+        </p>
+
+        <p class="hero-description" data-i18n="hero.description2">
+          I connect business needs with technical solutions — transforming
+          information into insights, building useful tools and making complex
+          problems easier to understand.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-page-target="projects">
+            <span data-i18n="hero.button1">Explore my work</span> <span>↗</span>
+          </a>
+          <a class="btn btn-secondary" href="#contact" data-page-target="contact" data-i18n="hero.button2">
+            Get in touch
+          </a>
+        </div>
+
+        <div class="hero-specialties">
+          <span data-i18n="hero.specialty1">Data &amp; BI</span>
+          <span data-i18n="hero.specialty2">Business Analysis</span>
+          <span data-i18n="hero.specialty3">AI &amp; Software</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-frame">
+          <img
+            class="portrait-photo"
+            src="images/portrait.jpeg"
+            alt="Portrait of Aya A."
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          >
+          <div class="portrait-placeholder">
+            <span class="placeholder-initials">AA</span>
+            <span class="placeholder-caption" data-i18n="hero.portraitCaption">DATA · BUSINESS · TECHNOLOGY</span>
+          </div>
+        </div>
+        <p class="hero-side-note" data-i18n="hero.sideNote">Curiosity, clarity &amp; impact.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="page-section inner-page" id="about" data-page="about">
+
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="about.eyebrow">A LITTLE ABOUT ME</p>
+        <h2 data-i18n="about.title">Where business questions meet <span>data.</span></h2>
+        <p class="section-intro" data-i18n="about.intro">
+          I enjoy understanding the problem behind the numbers, finding the
+          signal in the information and turning it into something people can use.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main">
+
+          <h3 data-i18n="about.approachTitle">My approach</h3>
+          <p data-i18n="about.approach1">
+            I am an engineer in Computer Engineering and Artificial Intelligence,
+            graduated from ENSAM Casablanca in July 2025. My interests lie at the
+            intersection of data, business needs and technology.
+          </p>
+          <p data-i18n="about.approach2">
+            I’m particularly interested in analysing information, defining useful
+            KPIs, building dashboards and translating operational needs into
+            clear requirements. My experience in AI and software development
+            helps me understand not only what the data says, but also how
+            technical solutions can support business decisions.
+          </p>
+          <p data-i18n="about.approach3">
+            I value structured thinking, clear communication and solutions that
+            are practical, reliable and easy to understand.
+          </p>
+
+        </div>
+
+        <div class="about-side">
+          <div class="about-card">
+            <p class="card-kicker" data-i18n="about.card1Kicker">01 — PRIMARY FOCUS</p>
+            <h3 data-i18n="about.card1Title">Data &amp; Business Analysis</h3>
+            <p data-i18n="about.card1Text">Data preparation, KPI analysis, business needs, requirements and decision support.</p>
+          </div>
+
+          <div class="about-card">
+            <p class="card-kicker" data-i18n="about.card2Kicker">02 — BUSINESS INTELLIGENCE</p>
+            <h3 data-i18n="about.card2Title">Reporting &amp; Visualisation</h3>
+            <p data-i18n="about.card2Text">Power BI, Power Query, Excel, SQL and interactive dashboards.</p>
+          </div>
+
+          <div class="about-card">
+            <p class="card-kicker" data-i18n="about.card3Kicker">03 — TECHNICAL FOUNDATION</p>
+            <h3 data-i18n="about.card3Title">AI &amp; Software Engineering</h3>
+            <p data-i18n="about.card3Text">Python, NLP, machine learning, APIs, web development and automation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <p class="eyebrow" data-i18n="about.skillsEyebrow">TOOLS &amp; SKILLS</p>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 data-i18n="about.skillsData">Data &amp; BI</h3>
+            <div class="skill-tags">
+              <span>SQL</span><span>Power BI</span><span>Power Query</span>
+              <span>Excel</span><span>DAX — fundamentals</span><span>Looker Studio</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 data-i18n="about.skillsBusiness">Business Analysis</h3>
+            <div class="skill-tags">
+              <span>Requirements analysis</span><span>KPI definition</span>
+              <span>Operational analysis</span><span>Documentation</span>
+              <span>Stakeholder communication</span><span>Agile / Scrum</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 data-i18n="about.skillsAI">AI &amp; Development</h3>
+            <div class="skill-tags">
+              <span>Python</span><span>Pandas</span><span>NLP</span>
+              <span>YOLO</span><span>OpenAI API</span><span>Django</span>
+              <span>Java</span><span>Spring Boot</span><span>Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="page-section inner-page" id="experience" data-page="experience">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="experience.eyebrow">EXPERIENCE &amp; EDUCATION</p>
+
+        <h2 data-i18n="experience.title">
+          A foundation built across <span>business and technology.</span>
+        </h2>
+
+        <p class="section-intro" data-i18n="experience.intro">
+          Experience in operational analysis, AI solutions, software delivery
+          and data-driven projects.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-marker">I</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.telus.date">MAY 2026 — OCTOBER 2026 · CASABLANCA</p>
+            <h3 data-i18n="experience.telus.title">Data &amp; Business Analyst — B2B</h3>
+            <p class="timeline-company">TELUS Digital</p>
+            <ul>
+              <li data-i18n="experience.telus.point1">Analysed and qualified requests from business clients to identify operational needs and business-related issues.</li>
+              <li data-i18n="experience.telus.point2">Used the information gathered to support request tracking, problem resolution and operational decision-making.</li>
+              <li data-i18n="experience.telus.point3">Communicated daily with international business stakeholders in French and English to clarify needs and follow up on requests.</li>
+              <li data-i18n="experience.telus.point4">Strengthened skills in business analysis, information processing, problem-solving and stakeholder communication.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">II</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.freelance.date">NOVEMBER 2025 — APRIL 2026 · FREELANCE</p>
+            <h3 data-i18n="experience.freelance.title">AI Solutions Developer — Chatbot &amp; NLP Automation</h3>
+            <p class="timeline-company" data-i18n="experience.freelance.company">Freelance project</p>
+            <ul>
+              <li data-i18n="experience.freelance.point1">Designed a conversational assistant that allows users to query operational data using natural language.</li>
+              <li data-i18n="experience.freelance.point2">Integrated OpenAI APIs and NLP pipelines to interpret requests, use context and generate answers and business insights.</li>
+              <li data-i18n="experience.freelance.point3">Ran functional tests, validated response quality and improved the processing workflow.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">III</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.rifl.date">FEBRUARY 2025 — SEPTEMBER 2025 · CASABLANCA</p>
+            <h3 data-i18n="experience.rifl.title">Software Engineer &amp; Data — Final-Year Internship</h3>
+            <p class="timeline-company">RIFL Biometrics Maroc</p>
+            <ul>
+              <li data-i18n="experience.rifl.point1">Contributed to Siwan Taxi, an Android, iOS and web platform, through application development and operational data structuring.</li>
+              <li data-i18n="experience.rifl.point2">Participated in business-needs analysis, functional specifications and Agile/Scrum sprints using Jira.</li>
+              <li data-i18n="experience.rifl.point3">Worked with trip, geolocation and user-related data to support future performance analysis.</li>
+              <li data-i18n="experience.rifl.point4">Contributed to functional testing, technical documentation and build/deployment automation using GitHub Actions and Docker.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">IV</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.generafi.date">JULY 2024 — OCTOBER 2024 · CASABLANCA</p>
+            <h3 data-i18n="experience.generafi.title">AI &amp; Data Engineering Intern</h3>
+            <p class="timeline-company">GénéraFi</p>
+            <ul>
+              <li data-i18n="experience.generafi.point1">Developed a vehicle and pedestrian detection and counting system using video streams, Python, YOLOv8 and SORT.</li>
+              <li data-i18n="experience.generafi.point2">Automated traffic reporting with Google Sheets and Drive APIs and built an interactive Looker Studio dashboard.</li>
+              <li data-i18n="experience.generafi.point3">Used Docker for containerisation and contributed to an invoice information-extraction concept using OCR and AI.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">V</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.articode.date">JULY 2023 — SEPTEMBER 2023 · CASABLANCA</p>
+            <h3 data-i18n="experience.articode.title">Augmented Reality Developer Intern</h3>
+            <p class="timeline-company">ARTICODE</p>
+            <ul>
+              <li data-i18n="experience.articode.point1">Developed interactive scenes, animations and features with Unity and C# for an augmented-reality application for the real-estate sector.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">VI</div>
+          <div class="timeline-content">
+            <p class="timeline-date" data-i18n="experience.education.date">JULY 2025</p>
+            <h3 data-i18n="experience.education.title">State Engineering Degree in Computer Engineering &amp; Artificial Intelligence</h3>
+            <p class="timeline-company">ENSAM Casablanca</p>
+            <p data-i18n="experience.education.description">Engineering degree with a focus on software engineering, artificial intelligence and data-oriented solutions.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="page-section inner-page" id="projects" data-page="projects">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="projects.eyebrow">SELECTED WORK</p>
+        <h2 data-i18n="projects.title">Projects that turn ideas into <span>useful solutions.</span></h2>
+        <p class="section-intro" data-i18n="projects.intro">
+          A selection of projects across data visualisation, business intelligence,
+          AI-powered applications and software engineering.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-visual race-visual">
+            <span class="project-index">I</span>
+            <img
+              class="project-image"
+              src="images/projects/RaceVision.png"
+              alt="AI-powered sports photo search using bib number detection and OCR"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.race.category">AI APPLICATION · COMPUTER VISION</p>
+            <h3>RaceVision</h3>
+            <p data-i18n="projects.race.description">
+              A web application for managing sports-event photos with machine
+              learning. Built to help photographers and participants find
+              relevant images through automated image analysis and text recognition.
+            </p>
+            <div class="project-tags">
+              <span>Django</span><span>Python</span><span>YOLO</span>
+              <span>Roboflow</span><span>OCR</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual insight-visual">
+            <span class="project-index">II</span>
+            <img
+              class="project-image"
+              src="images/projects/insight.jfif"
+              alt="Banking analytics dashboard displaying key performance indicators and financial trends"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.insight.category">BUSINESS INTELLIGENCE · DATA ANALYSIS</p>
+            <h3 data-i18n="projects.insight.title">InsightFlow — Banking Dashboard</h3>
+            <p data-i18n="projects.insight.description">
+              A Power BI dashboard for monitoring key banking indicators using
+              multi-source data. The project covers data preparation and modelling,
+              business KPI creation and trend analysis to support decision-making.
+            </p>
+            <div class="project-tags">
+              <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Excel / CSV</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual ebank-visual">
+            <span class="project-index">III</span>
+            <img
+              class="project-image"
+              src="images/projects/ebank.jfif"
+              alt="Digital banking system illustrating account management and secure transaction processing"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.ebank.category">SOFTWARE ENGINEERING · MICROSERVICES</p>
+            <h3 data-i18n="projects.ebank.title">E-Bank Operations</h3>
+            <p data-i18n="projects.ebank.description">
+              A containerised banking application for account management,
+              transactions and authentication. Designed around microservices
+              to support modular deployment, maintainability and scalability.
+            </p>
+            <div class="project-tags">
+              <span>Java</span><span>Spring Boot</span><span>Docker</span>
+              <span>PostgreSQL</span><span>Kubernetes</span><span>GitHub Actions</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual art-visual">
+            <span class="project-index">IV</span>
+            <img
+              class="project-image"
+              src="images/projects/ArtGal.png"
+              alt="Interactive art gallery combining augmented reality, artificial intelligence, and IoT"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.art.category">AUGMENTED REALITY · INTERACTIVE EXPERIENCE</p>
+            <h3>ArtGallery</h3>
+            <p data-i18n="projects.art.description">
+              An interactive digital art gallery created with Unity, where users
+              can explore artworks ranging from paintings to sculptures. The
+              experience includes generated questions and AI-assisted answers
+              to encourage discovery and interaction.
+            </p>
+            <div class="project-tags">
+              <span>Unity</span><span>Augmented Reality</span><span>AI</span><span>IoT</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual traffic-visual">
+            <span class="project-index">V</span>
+            <img
+              class="project-image"
+              src="images/projects/Traffic Intelligence.png"
+              alt="AI traffic monitoring system detecting and counting vehicles and pedestrians in video footage"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.traffic.category">DATA ANALYSIS · COMPUTER VISION</p>
+            <h3 data-i18n="projects.traffic.title">Traffic Intelligence</h3>
+            <p data-i18n="projects.traffic.description">
+              A video-analysis pipeline to detect and track road users, including
+              vehicles and pedestrians. Detection outputs are organised into
+              traffic reports and visualised through an interactive dashboard.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>YOLOv8</span><span>SORT</span>
+              <span>Google Sheets</span><span>Looker Studio</span><span>Docker</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual assistant-visual">
+            <span class="project-index">VI</span>
+            <img
+              class="project-image"
+              src="images/projects/aichat.jfif"
+              alt="AI-powered conversational assistant for business insights"
+            >
+          </div>
+          <div class="project-body">
+            <p class="project-category" data-i18n="projects.assistant.category">NLP · DATA ACCESS · BUSINESS INSIGHTS</p>
+            <h3 data-i18n="projects.assistant.title">AI Business Assistant</h3>
+            <p data-i18n="projects.assistant.description">
+              A conversational assistant that lets users ask questions about
+              operational data in natural language. OpenAI APIs and NLP pipelines
+              help interpret requests and generate contextual answers and insights.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>NLP</span><span>OpenAI API</span><span>Automation</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page-section contact-page" id="contact" data-page="contact">
+      <div class="contact-content">
+        <p class="eyebrow" data-i18n="contact.eyebrow">LET'S CONNECT</p>
+        <h2 data-i18n="contact.title">Good work starts with a <span>conversation.</span></h2>
+        <p class="contact-intro" data-i18n="contact.intro">
+          Interested in data, business analysis, BI or technology-driven projects?
+          I’d be happy to connect and discuss how I could contribute to your team.
+        </p>
+
+        <div class="contact-details">
+          <a class="contact-item" href="mailto:ayaakly512@gmail.com">
+            <span class="contact-label" data-i18n="contact.emailLabel">EMAIL</span>
+            <span class="contact-value">ayaakly512@gmail.com ↗ <span class="contact-hint" data-i18n="contact.emailHint">Click to compose an email</span></span>
+          </a>
+          <a class="contact-item" href="tel:+212611596860">
+            <span class="contact-label" data-i18n="contact.phoneLabel">PHONE</span>
+            <span class="contact-value">+212 611 596 860 ↗</span>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/aya-a-52842b248/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label" data-i18n="contact.linkedinLabel">LINKEDIN</span>
+            <span class="contact-value" data-i18n="contact.linkedinValue">Connect with me ↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#home" data-page-target="home"
+      aria-label="Aya A. — Home">
+      <span class="logo-initials">A<span class="logo-second">A</span></span>
+      <span class="logo-dot">.</span>
+    </a>
+
+    <p class="footer-copy" data-i18n="footer.copy">Designed with intention. Built with curiosity.</p>
+
+    <span class="footer-count" data-i18n="footer.copyright">© 2026 A.AKLY</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
